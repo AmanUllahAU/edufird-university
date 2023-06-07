@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="course.css">
+    <!-- <link rel="stylesheet" href="about.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="./eduford_img/eduford_img/logo.png" alt=""></a>
+            <div class="nav-link" id="navLink">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+        <div class="main-div">
+            <div class="sub-div-1">
+                <img src="./eduford_img/eduford_img/map.png" alt="">
+                <!-- <img src="./eduford_img/eduford_img/contact img 2.png" alt="" class="img-for-responsive"> -->
+                <form class="main-form">
+                    <input type="text" placeholder="Enter Your Name" class="name" required><br>
+                    <input type="email" placeholder="Enter Your Email" class="form" required><br>
+                    <input type="text" placeholder="Enter Your Subject" class="form" required><br>
+                    <textarea name="text" cols="51" rows="8" placeholder="Message.." class="textarea"></textarea><br>
+                    <button type="submit">Send Message</button>
+                    
+                </form>
+
+
+            </div>
+            <div class="sub-div-2">
+               
+                <img src="./eduford_img/eduford_img/contact img.png" alt="">
+
+            </div>
+
+            <div class="about-us">
+                <h3>About Us</h3>
+                <p class="para-of-about">We’re a leading research university with a heart. Founded in the decade that the U.S. Constitution
+                    was signed, we’re the nation’s oldest Catholic and <br> Jesuit university. We’re a community of
+                    people who bridge our disparate experiences and identities. Meet the people and places that make
+                    Eduford <br> home.</p>
+
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <p class="para-of-madewith">Made With <i class="fa-regular fa-heart"></i> Mehdi Hasan John</p>
+            </div>
+        </div>
+
+
+
+    </section>
+<script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+.header {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./eduford_img/eduford_img/background.jpg);
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.headin-3 {
+    display: none;
+    color: #ffffff;
+
+}
+
+.heading-2 {
+    display: none;
+}
+
+
+.img-text-1 {
+    margin-left: 130px;
+    margin-top: 100px;
+    width: 45%;
+    height: 170vh;
+    /* background-color: brown; */
+    text-align: left;
+}
+
+.img-text-1 img {
+    width: 100%;
+    height: 65vh;
+
+}
+
+.img-text-1 h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #000;
+    margin: 20px;
+}
+
+.img-text-1 .para {
+    font-size: 14px;
+    color: rgb(83, 83, 83);
+    font-weight: 400;
+    margin: 20px;
+}
+
+.img-text-2 {
+    margin-right: 130px;
+    margin-top: 100px;
+    width: 32%;
+    height: 50vh;
+    /* background-color: brown; */
+}
+
+.img-text-2 img {
+    width: 100%;
+    height: 50vh;
+}
+
+
+@media (max-width:1440px) {
+    .box .para{
+        font-size: 16px;
+    }
+}
+
+
+
+
+@media (max-width:768px) {
+
+    .headin-3 {
+        display: block;
+        margin: 50px;
+        font-size: 30px;
+        color: #ffffff;
+    }
+
+    .heading-2 {
+        text-align: center;
+        display: block;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    .heading-1 {
+        display: none;
+    }
+
+    .text-of-blog-section {
+        margin-left: 25%;
+        width: 100%;
+        align-items: center;
+    }
+
+    .image-of-blog-section {
+        display: none;
+    }
+
+    .img-text-1 {
+        margin-top: -10px;
+        margin-left: 10px;
+        height: 300vh;
+        width: 100%;
+    }
+
+    .para {
+        text-align: center;
+        font-size: 18px;
+    }
+}
